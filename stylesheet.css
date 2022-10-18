@@ -93,5 +93,60 @@ body{
 }
 
 .eye{
-  
+  height: 12px;
+  width: 12px;
+  background-color: #161616;
+  position: relative;
+  border-radius: 50%;
+}
+
+.eye-l{
+  bottom: 255px;
+  left: 59px; 
+}
+
+.eye-r{
+  bottom: 267px;
+  left: 101px;
+}
+
+.mouth{
+  height: 5px;
+  width: 10px;
+  border: 3px solid #161616;
+  position: relative;
+  bottom: 262px;
+  left: 79px;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.blush{
+  height: 7.5px;
+  width: 7.5px;
+  background-color: #1ca4f9;
+  position: relative;
+}
+
+.blush-l{
+  bottom: 273px;
+  left: 50px;
+}
+
+.blush-2{
+  bottom: 281px;
+  left:115px;
+}
+
+.orbit{
+  height: 280px;
+  width: 280px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
